@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed; 
+    z-index: 2;
+    /* height:20vh; */
+    width: 100%;
+    color:white;
+    background-color: red;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-self: end; */
+    gap: 20px;
+}
+
+/* rules that apply to each section */
+.feature{
+    position: relative;
+    height: 80vh;
+    /* background image stuff below */
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.ctaBox{
+    left: 10%;
+    bottom: 20%;
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    color: black;
+    opacity: 0.85;
+}
+
+.ctaBox button{
+    background-color: green;
+    height: 30%;
+}
+
+.section1 {
+    /* background-color: blue; */
+    background-image: url("sword1.png");
+}
+
+.section2 {
+    /* background-color: green; */
+    background-image: url("sword2.png");
+}
+
+.section3 {
+    /* background-color: yellow ; */
+    background-image: url("sword3.png");
+}
+
+footer{
+    background-color: brown;
+    height:20vh;
+}
