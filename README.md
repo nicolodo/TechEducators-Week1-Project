@@ -1,5 +1,6 @@
 # TechEducators-Week1-Project
 
+This readme looks much better as a raw file instead of rendered
 
 🎯 What requirements did you achieve?
     🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that includes a <header>, <nav>, and <footer>.
